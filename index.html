@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Tarro viejo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="carta">
+            <img src='https://i.postimg.cc/Fzj7NfK7/ordenador-viejo-usos-07.jpg' alt='ordenador-viejo' class="carta-img"/>
+            <p class="porte-informacion">Tarro nostalgico</p>
+            <input type="number" id="cantidad" class="cantidad" placeholder="Cantidad" />
+            <br>
+            <input type="color" id="color" class="color" placeholder="Color" />
+            <h2>Precio: <label id="precio">99000</label></h2>
+            <button id="calcular">Calcular total</button>
+        </div>
+        <div class="resultados">
+          <h3>Total: <label id="total-final"></label></h3>
+          <h3>Cantidad: <label id="total-cantidad"></label></h3>
+          <div class="color-circulo">
+            <h3>Color:</h3>
+            <span id="total-color" class="total-color"></span>
+          </div>
+        </div>
+    </div>
+
+
+    
+
+<script src="assets/js/script.js"> </script>
+</body>
+</html>
